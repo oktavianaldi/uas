@@ -1,0 +1,227 @@
+#container{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.kotak{
+  width: 100px;
+  height: 100px;
+  background-color: #4CAF50;
+  margin: 10px;
+}
+/* display flex. kui flebox*/
+.flexi{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #1abc9c;
+}
+.header{
+    background-image: url('head.PNG');
+
+    height: 100px;
+}
+body{
+    background-image: url('daun.jpg');
+}
+
+.tgl{
+    background-color: rgb(90, 85, 85);
+
+}
+
+.kiri{
+    float: left;
+    width: 30%;
+   
+    background-color: #1abc9c;
+}
+
+.stori{
+    background-color: rgb(2, 139, 2);
+}
+.kanan{
+    float: right;
+    width: 61%;
+ 
+    background-color: rgb(44, 95, 99);
+}
+
+.menu{  
+    width: 100%;
+    height: 50px;
+    background-color: brown;
+}
+/* ini navbar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(2, 139, 2);
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /* ini form */
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 15px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/* ini prestasi*/
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(250, 253, 250);
+}
+/* galeri */
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer{
+  background-color: #4CAF50;
+  width: 100%;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
